@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+    font-weight: 300;
+    color: black;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+
+.row{
+    max-width: 1300px;
+    margin: 0 auto 0 auto; 
+    
+}
+
+
+
+
+header{
+    /* background-image:url(imgs/pexels-madvortex-9214280.jpg); */
+    background-color: #d3d3d3;
+    background-position:right;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    background-attachment: fixed;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-nav{
+    float: right;
+    
+}
+.sub-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.sub-nav a{
+    text-decoration: none;
+}
+
+.sub-nav li{
+    list-style: none;
+    /* margin-left: 30px;
+    margin-top: 20px; */
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+}
+
+.dropdown {
+    position:relative;
+    left: -20%;
+    display: none;
+}
+
+
+
+.search{
+    padding: 10px;
+    width: 20%;
+    /* position: absolute; */
+    border: 1px solid white;
+    /* top: 3%; */
+    background-color: transparent;
+    outline: none;
+    
+}
+
+.rat{
+    width: 80px;
+    /* position: absolute; */
+    text-align: center;
+    /* left: 45%; */
+}
+
+
+.last-main-display{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.account-head-pic{
+    width: 600px;
+}
+
+.form-container{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.form-container span{
+    padding: 0px 10px;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+    text-align: center;
+    margin-left: 90px;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+
+.form-btn > a{
+    text-decoration: none;
+    color: grey;
+}
+
+.form-container form{
+    max-width: 300px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 27%;
+    transition: 1s;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0px 10px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 3px;
+}
+
+.forgotbtn {
+    text-decoration: none;
+    color: grey;
+    margin-top: 20px;
+}
+
+.forgotbtn a{
+    text-decoration: none;
+    color: grey;
+}
+
+form button{
+    padding: 6px 10px;
+    width: 100%;
+    background-color: orange;
+    border: none;
+    border-radius: 100px;
+}
+
+
+#regForm{
+    left: -100%;
+}
+
+#indicator{
+    background-color: orange;
+    width: 80px;
+    height: 3px;
+    border: none;
+    margin-top: 8px;
+    transform: translateX(75px);
+    transition: 1s;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: grey;
+    padding-top: 30px;
+}
+
+.footer-logo{
+    width: 100px;
+}
+
+.group-1 p{
+    text-transform: capitalize;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+.email-box{
+    margin-left: 30px;
+    margin-top: 10px;
+    background-color: transparent;
+    padding: 10px 30px;
+    outline: none;
+    border: 1px solid grey;
+    color:grey;
+}
+
+.last-details{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 1px solid grey;
+}
+.st{
+    display: flex;
+    text-transform: capitalize;
+}
+.st li{
+    margin-left: 30px;
+}
+
+.copyr{
+    margin-right: 20px
+}
+.privacy{
+    margin-right: 150px;
+}
+.link{
+    text-decoration: none;
+    border: 1px solid white;
+    color: gray;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
